@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Include/bootstrap';
-
+import "animate.css/animate.min.css";
 
 import Cabecalho from "./Components/Cabecalho/Cabecalho";
 import MainBanner from "./Components/MainBanner/MainBanner"
@@ -17,5 +17,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;

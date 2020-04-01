@@ -11,6 +11,7 @@
 
 .about-button {
     border: solid;
+    font-size: 20px;
 }
 
 .about-button:hover {
@@ -20,7 +21,9 @@
 
 #banner-text {
     text-align: center;
-    font-size: 46px;
+    font-size: 39px;
+    padding-top: 200px;
+    color: #ffff;
 }
 
 .arrow {

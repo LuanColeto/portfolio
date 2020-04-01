@@ -3,7 +3,7 @@ import './Cabecalho.css';
 
 
 class cabecalho extends Component{
-        render() {
+    render() {
             return(
                 <header>
                     <nav className="navbar navbar-expand-md navbar-dark fixed-top " style={{background: '#133B57'}} >
@@ -34,5 +34,7 @@ class cabecalho extends Component{
             )
         }
 }
+
+
 
 export default cabecalho;
