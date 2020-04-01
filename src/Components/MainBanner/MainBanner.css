@@ -1,0 +1,10 @@
+#banner-area {
+    padding-top: 430px;
+    background: url("../../Images/development-banner.jpeg") no-repeat  center ;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.about-button {
+    margin-bottom: 300px;
+}

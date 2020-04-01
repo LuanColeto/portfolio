@@ -1,12 +1,12 @@
 import React, {Component} from "react";
-import './cabecalho.css';
+import './Cabecalho.css';
 
 
-class Cabecalho extends Component{
+class cabecalho extends Component{
         render() {
             return(
                 <div>
-                    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <nav className="navbar navbar-expand-md navbar-dark fixed-top " style={{background: '#133B57'}} >
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -34,4 +34,4 @@ class Cabecalho extends Component{
         }
 }
 
-export default Cabecalho;
+export default cabecalho;
