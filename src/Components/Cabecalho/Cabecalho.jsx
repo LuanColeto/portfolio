@@ -5,7 +5,7 @@ import './Cabecalho.css';
 class cabecalho extends Component{
         render() {
             return(
-                <div>
+                <header>
                     <nav className="navbar navbar-expand-md navbar-dark fixed-top " style={{background: '#133B57'}} >
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -29,7 +29,8 @@ class cabecalho extends Component{
                             </ul>
                         </div>
                     </nav>
-                </div>
+                </header>
+
             )
         }
 }

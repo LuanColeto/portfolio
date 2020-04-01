@@ -6,12 +6,14 @@ import './Include/bootstrap';
 
 import Cabecalho from "./Components/Cabecalho/Cabecalho";
 import MainBanner from "./Components/MainBanner/MainBanner"
+import About from "./Components/About/About"
 
 function App() {
   return (
     <div className="App">
             <Cabecalho/>
-            <MainBanner/>
+            <MainBanner />
+            <About/>
     </div>
   );
 }
