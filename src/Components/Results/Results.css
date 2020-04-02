@@ -1,0 +1,27 @@
+#results-section {
+    padding-top: 10px;
+    background-color: rgb(19, 59, 87);
+    color: #ffffff;
+}
+
+.row{
+    margin-right: 0px;
+}
+
+.result-item {
+    padding-bottom: 30px;
+    fill: #ffffff;
+    filter: brightness(0) invert(1);
+}
+
+.count {
+    color: #0A9181;
+}
+
+.result-text {
+    font-size: 20px;
+    margin-bottom: 30px;
+
+}
+
+/* rgb(40, 39, 49) */

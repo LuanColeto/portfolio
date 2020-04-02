@@ -1,3 +1,16 @@
 #section-about {
     margin-top: 80px;
+    margin-bottom: 90px;
+}
+
+.section-title {
+    color: #133B57;
+    text-align: left;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.image {
+    width: 300px;
+    border-radius: 50px;
 }

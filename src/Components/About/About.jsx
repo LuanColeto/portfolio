@@ -1,14 +1,29 @@
 import React, {Component} from "react";
 import './About.css'
-import 'aos';
-
+import Luan from '../../Images/luan-coleto.jpg'
 class About extends Component{
     render() {
         return(
             <div id="section-about">
-                <div className="row mb-5">
-
-                </div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <h2 className="section-title">Sobre mim</h2>
+                            <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
+                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                        </div>
+                        <div className="col-md-6">
+                            <img className="image" src={Luan}/>
+                        </div>
+                    </div>
+            </div>
             </div>
         )
     }
