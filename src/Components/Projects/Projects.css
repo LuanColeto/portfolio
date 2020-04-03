@@ -1,0 +1,72 @@
+#projects-section {
+}
+
+#project-title {
+    font-size: 46px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+    margin-top: 60px;
+
+}
+
+.project-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid;
+}
+
+.primary-button {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    margin-right: 30px;
+    border: solid 1px ;
+}
+
+.secundary-button {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.secundary-button:hover {
+    border: 1px solid;
+    text-align: center;
+    color: #ffffff;
+    background-color: #133B57;
+}
+
+.web-button {
+    visibility: hidden;
+}
+
+.mobile-button {
+    visibility: hidden;
+}
+
+.desktop-button {
+    visibility: hidden;
+}
+
+.primary-button:hover {
+    border: 1px solid;
+    text-align: center;
+    color: #ffffff;
+    background-color: #133B57;
+}
+
+
+.project {
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    background: #282c34;
+    width: 300px;
+    visibility: hidden;
+}
+

@@ -14,13 +14,15 @@
     filter: brightness(0) invert(1);
 }
 
+
+
 .count {
     color: #0A9181;
 }
 
 .result-text {
     font-size: 20px;
-    margin-bottom: 30px;
+        margin-bottom: 30px;
 
 }
 
