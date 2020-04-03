@@ -55,7 +55,7 @@ class Projects extends Component{
 
                         <div className="project col-lg-4 col-md-4 col-sm-4  col-xs-6 port-image filter swift">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/667px-Swift_logo.svg.png" className="img-responsive swift-project"/>
-                        </div>
+                          </div>
 
                         <div className="project col-lg-4 col-md-4 col-sm-4  col-xs-6 port-image filter react-native">
                             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" className="img-responsive react-native-project"/>

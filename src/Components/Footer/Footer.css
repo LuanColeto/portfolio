@@ -1,0 +1,39 @@
+footer {
+    background-color: #282832
+}
+
+.footer-title {
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+.icon {
+    text-align: center;
+}
+
+.social-icon {
+    width: 40px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align: middle;
+    margin-right: 30px;
+    border: none;
+    filter: brightness(0) invert(1);
+
+}
+
+
+#github-icon:hover {
+    filter: brightness(1) invert(0);
+}
+
+#linkedin-icon:hover {
+    filter: invert(33%) sepia(95%) saturate(460%) hue-rotate(173deg) brightness(93%) contrast(96%);
+}
+
+#whatsapp-icon:hover {
+    filter: invert(70%) sepia(9%) saturate(2828%) hue-rotate(76deg) brightness(96%) contrast(93%);
+}
+
+
