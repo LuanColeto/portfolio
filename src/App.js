@@ -9,6 +9,7 @@ import MainBanner from "./Components/MainBanner/MainBanner";
 import About from "./Components/About/About";
 import Results from "./Components/Results/Results";
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <About/>
             <Results/>
             <Projects/>
+            <Contact/>
     </div>
   );
 }

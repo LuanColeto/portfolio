@@ -118,12 +118,12 @@ $(document).ready(function () {
                 break;
             case 'react-native':
                 $('#react-native-button').css({'background-color': '#133B57', 'color': '#fff'});
-                $('#swift').css({'background-color': '#fff', 'color': '#000'});
+                $('#swift-button').css({'background-color': '#fff', 'color': '#000'});
                 $('#flutter-button').css({'background-color': '#fff', 'color': '#000'});
                 break;
             case 'flutter':
                 $('#flutter-button').css({'background-color': '#133B57', 'color': '#fff'});
-                $('#swift').css({'background-color': '#fff', 'color': '#000'});
+                $('#swift-button').css({'background-color': '#fff', 'color': '#000'});
                 $('#react-native-button').css({'background-color': '#fff', 'color': '#000'});
                 break;
             case 'javascript-desktop':
