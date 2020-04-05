@@ -81,8 +81,8 @@ function registerValidSW(swUrl, config) {
             } else {
               // At this point, everything has been precached.
               // It's the perfect time to display a
-              // "Cabecalho is cached for offline use." message.
-              console.log('Cabecalho is cached for offline use.');
+              // "Navbar is cached for offline use." message.
+              console.log('Navbar is cached for offline use.');
 
               // Execute callback
               if (config && config.onSuccess) {

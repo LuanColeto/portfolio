@@ -5,7 +5,7 @@ import './Include/bootstrap';
 import "animate.css/animate.min.css";
 
 //Components
-import Cabecalho from "./Components/Cabecalho/Cabecalho";
+import Cabecalho from "./Components/Navbar/Navbar";
 import MainBanner from "./Components/MainBanner/MainBanner";
 import About from "./Components/About/About";
 import Results from "./Components/Results/Results";
@@ -16,8 +16,8 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
-            <Cabecalho/>
             <MainBanner />
+            <Cabecalho/>
             <About/>
             <Results/>
             <Projects/>

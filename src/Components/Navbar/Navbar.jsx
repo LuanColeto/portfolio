@@ -1,12 +1,13 @@
 import React, {Component} from "react";
+import $ from 'jquery';
 import './Cabecalho.css';
 
 
-class cabecalho extends Component{
+class Navbar extends Component{
     render() {
             return(
-                <header>
-                    <nav className="navbar navbar-expand-md navbar-dark fixed-top " style={{background: '#133B57'}} >
+                <header id="navbar">
+                    <nav className="navbar navbar-expand-md navbar-dark fixed-top position-sticky"  style={{background: '#133B57'}} >
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -36,5 +37,4 @@ class cabecalho extends Component{
 }
 
 
-
-export default cabecalho;
+export default Navbar;
