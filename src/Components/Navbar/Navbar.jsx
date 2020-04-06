@@ -7,7 +7,7 @@ class Navbar extends Component{
     render() {
             return(
                 <header id="navbar">
-                    <nav className="navbar navbar-expand-md navbar-dark fixed-top position-sticky"  style={{background: '#133B57'}} >
+                    <nav className="navbar navbar-expand-md navbar-dark col-md-12"  style={{background: '#133B57'}} >
                         <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                                 aria-label="Toggle navigation">

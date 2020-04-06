@@ -18,11 +18,14 @@ class About extends Component{
                             <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
                                 commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
                                 porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+
+                            <a href="contact-section" id="contact-me" className="btn btn  py-3 px-5 text-white about-button fa  fa-arrow-down fa-2x">Fale comigo!</a>
                         </div>
                         <div className="col-md-6">
                             <img className="image" src={Luan}/>
                         </div>
                     </div>
+
             </div>
             </div>
         )

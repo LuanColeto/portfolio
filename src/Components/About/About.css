@@ -14,3 +14,36 @@
     width: 300px;
     border-radius: 50px;
 }
+
+#contact-me {
+    width: 300px;
+    height: 70px;
+    background-color: #133B57;
+    color: #ffffff;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+#contact-me:hover {
+    background-color: #ffffff;
+    color: #133B57;
+    font-size: 30px;
+}
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+

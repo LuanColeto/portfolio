@@ -37,3 +37,59 @@
   }
 }
 
+.techs-animation {
+  height: 50px;
+  font-size: 38px;
+  text-transform: uppercase;
+  display: block;
+  overflow: hidden;
+  margin-right: 30px;
+
+}
+
+.techs-animation ul li {
+  list-style-type: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.techs-animation  ul{
+  animation: infiniteWord 15s ease infinite;
+}
+
+@keyframes infiniteWord {
+  from {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(0, 0);
+  }
+  20% {
+    transform: translate(0, -57px);
+  }
+  30% {
+    transform: translate(0, -114px);
+  }
+  40% {
+    transform: translate(0, -171px);
+  }
+  50% {
+    transform: translate(0, -228px);
+  }
+  60% {
+    transform: translate(0, -285px);
+  }
+  70% {
+    transform: translate(0, -342px);
+  }
+  80% {
+    transform: translate(0, -399px);
+  }
+  90% {
+    transform: translate(0, -456px);
+  }
+  to {
+    transform: translate(0, -513px);
+  }
+
+}
