@@ -17,7 +17,7 @@ class Contact extends Component{
 
                                 <div  className="row form-group">
                                     <div className="col-md-12">
-                                        <label className="text-white label-text" htmlfor="fname">Nome</label>
+                                        <label className="text-white label-text" htmlFor="fname">Nome</label>
                                         <input type="text" id="fname"  className="form-control"/>
                                     </div>
                                 </div>

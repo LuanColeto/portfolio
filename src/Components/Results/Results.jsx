@@ -22,12 +22,12 @@ class Results extends Component{
                     </div>
                    <div className="col-lg-3 ">
                        <img className="result-item" src={project} width="100" height="100"/>
-                       <h2 className="count"><CountUp end={13} duration={15}/></h2>
+                       <h2 className="count"><CountUp end={13} duration={10}/></h2>
                        <p className="result-text">Projetos</p>
                    </div>
                    <div className="col-lg-3 ">
                        <img className="result-item" src={code} width="100" height="100"/>
-                       <h2 className="count"><CountUp end={8000} duration={15}/></h2>
+                       <h2 className="count"><CountUp end={50000} duration={20}/></h2>
                        <p className="result-text">Linhas de Código</p>
                    </div>
                    <div className="col-lg-3 ">

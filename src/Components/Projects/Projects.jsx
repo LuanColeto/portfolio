@@ -31,8 +31,9 @@ class Projects extends Component{
                     <div className="row  col-md-12">
 
 
-                        <div className="project col-lg-4 col-md-4 col-sm-4  col-xs-6 filter react">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" align="middle" className="img-responsive react-project" />
+                        <div className="project col-lg-4 col-md-4 col-sm-4  col-xs-6 filter php">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" align="middle" className="img-responsive react-project" id="automacaoCuritiba-ecommerce"/>
+                            <div><button style={{visibility: 'hidden'}}>Saiba mais</button></div>
                         </div>
 
                         <div className="project col-lg-4 col-md-4 col-sm-4 port-image col-xs-4 filter react">

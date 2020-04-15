@@ -7,7 +7,7 @@ class MainBanner extends Component{
           <main>
              <div id="banner-area"  >
                 <div id="banner-text">
-                    <p data-aos="fade-up" data-aos-delay="200" style={{paddingBottom: '10px'}}>Olá, sou <span>Luan Coleto.</span><br/>
+                    <div data-aos="fade-up" data-aos-delay="200" style={{paddingBottom: '10px'}}>Olá, sou <span>Luan Coleto.</span><br/>
                         Sou um Desenvolvedor FullStack: <div className="techs-animation">
                             <ul>
                                 <li>JavaScript</li>
@@ -21,7 +21,7 @@ class MainBanner extends Component{
                                 <li>React Native</li>
                                 <li>Flutter</li>
                             </ul>
-                        </div></p>
+                        </div></div>
                     <p data-aos="fade-up" data-aos-delay="200" className="arrow bounce"><a href="#section-about"
                          className="btn  py-3 px-5 text-white about-button fa  fa-arrow-down fa-2x" style={{ color: 'white'}}>Conheça meu trabalho</a>
                     </p>
