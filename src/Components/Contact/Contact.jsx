@@ -39,7 +39,7 @@ class Contact extends Component{
 
                                 <div className="row form-group">
                                     <div className="col-md-12">
-                                        <input type="submit" value="Enviar mensagem" className="btn btn-primary py-2 px-4 text-white label-text"/>
+                                        <input type="submit" value="Enviar mensagem" className="btn py-2 px-4 text-white label-text"/>
                                     </div>
                                 </div>
 
