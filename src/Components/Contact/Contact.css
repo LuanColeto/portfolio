@@ -23,6 +23,7 @@
     margin-left: 0px;
 }
 
-form {
-
+#submit-btn {
+    border-style: solid;
+    border-color: #fff;
 }
