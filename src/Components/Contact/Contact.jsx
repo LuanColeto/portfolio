@@ -41,7 +41,7 @@ class Contact extends Component{
                                 <input type="text" name="honeypot" style={{display: 'none'}}></input>
                                 <div className="row form-group">
                                     <div className="col-md-12">
-                                        <input type="submit" value="Enviar mensagem" className="btn py-2 px-4 text-white label-text" id="submit-btn"/>
+                                        <input type="submit" value="Enviar mensagem" className="btn py-2 px-4 text-white label-text label-text" id="submit-btn"/>
                                     </div>
                                 </div>
 
