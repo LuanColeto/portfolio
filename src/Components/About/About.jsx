@@ -8,7 +8,7 @@ class About extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h2 className="section-title">Sobre mim</h2>
+                            <h2 className="section-title">Sobre </h2>
                             <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
                                 commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
                                 porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
