@@ -9,15 +9,14 @@ class About extends Component{
                     <div className="row">
                         <div className="col-md-6">
                             <h2 className="section-title">Sobre </h2>
-                            <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
-                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
-                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p style={{textAlign: 'left'}}>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus
-                                commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
-                                porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                            <p style={{textAlign: 'left'}}>Meu nome é Luan Mota Coleto, sou desenvolvedor e apaixonado pelo o que eu faço.
+                                Meu principal objetivo é resolver os problemas das pessoas através de código </p>
+                            <p style={{textAlign: 'left'}}>Tenho alguns anos de experiência na programação, participando de diversos projetos, de
+                                médio e grande porte. Trabalhando em e-commerce, sistemas para web e desenvolvimento de aplicativos, criando tanto
+                                o front-end quanto back-end. Sempre entregando um código bom e funcional.</p>
+                            <p style={{textAlign: 'left'}}>Tenho conhecimento em tecnologias front-end, back-end e mobile. Trabalhando com Ruby e
+                                Ruby on Rails, para desenvolvimento de back-end, uso Javascript para desenvolvimento front-end, utilizando frameworks
+                                como React, e para mobile utilizando o framwork Flutter.</p>
 
                             <button href="contact-section" id="contact-me" className="btn">Fale comigo!</button>
                         </div>
