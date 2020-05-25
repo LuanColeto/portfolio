@@ -8,7 +8,7 @@ class About extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h2 className="section-title">Sobre </h2>
+                            <h2 className="section-title">Sobre Mim</h2>
                             <p style={{textAlign: 'left'}}>Meu nome é Luan Mota Coleto, sou desenvolvedor e apaixonado pelo o que eu faço.
                                 Meu principal objetivo é resolver os problemas das pessoas através de código </p>
                             <p style={{textAlign: 'left'}}>Tenho alguns anos de experiência na programação, participando de diversos projetos, de
@@ -18,7 +18,7 @@ class About extends Component{
                                 Ruby on Rails, para desenvolvimento de back-end, uso Javascript para desenvolvimento front-end, utilizando frameworks
                                 como React, e para mobile utilizando o framwork Flutter.</p>
 
-                            <button href="contact-section" id="contact-me" className="btn">Fale comigo!</button>
+                            <button href="#contact-section" id="contact-me" className="btn">Fale comigo!</button>
                         </div>
                         <div className="col-md-6">
                             <img className="image" src={Luan}/>
