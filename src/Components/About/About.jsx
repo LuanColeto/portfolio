@@ -18,7 +18,7 @@ class About extends Component{
                                 Ruby on Rails, para desenvolvimento de back-end, uso Javascript para desenvolvimento front-end, utilizando frameworks
                                 como React, e para mobile utilizando o framwork Flutter.</p>
 
-                            <button href="#contact-section" id="contact-me" className="btn">Fale comigo!</button>
+                            <a href="#contact-section" id="contact-me" className="btn">Fale comigo!</a>
                         </div>
                         <div className="col-md-6">
                             <img className="image" src={Luan}/>

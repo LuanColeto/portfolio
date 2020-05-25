@@ -10,6 +10,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "notifyjs": "^3.0.0",
     "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
