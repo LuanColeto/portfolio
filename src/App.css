@@ -37,21 +37,16 @@
   }
 }
 
-
-
-
 #Skills {
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 90px;
 }
-
-
 
 .skills-title {
   font-size: 46px;
   text-align: center;
   font-weight: 500;
-  margin-bottom: 150px;
+  margin-bottom: 450px;
   margin-top: 60px;
 }
 
@@ -60,12 +55,13 @@
   height: 100px;
   transition: all 0.3s ease;
   -webkit-filter: grayscale(50%);
-  filter: grayscale(50%);
+  filter: grayscale(80%);
   margin-top: 40px;
 }
 
 .skill-only:hover {
-
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
 }
 
 .skill-only:hover img {
