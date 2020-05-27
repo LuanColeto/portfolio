@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import './MainBanner.css';
+import Typed from 'react-typed';
+
+// id="apresentation-text"
 
 class MainBanner extends Component{
     render() {
@@ -7,9 +10,14 @@ class MainBanner extends Component{
           <main>
              <div id="banner-area"  >
                 <div id="banner-text">
-                    <div data-aos="fade-up" data-aos-delay="200" style={{paddingBottom: '10px'}}>Olá, sou <span>Luan Coleto.</span><br/>
-                        Sou um Desenvolvedor FullStack
-                    </div>
+                    <Typed
+                        strings={[
+                            'Olá!',
+                            'Eu sou Luan Coleto',
+                            'Eu sou um desenvolvedor Fullstack']}
+                        typeSpeed={70}
+                        backSpeed={50}
+                        loop/>
                     <p data-aos="fade-up" data-aos-delay="200" className="arrow bounce"><a href="#section-about"
                          className="btn  py-3 px-5 text-white about-button fa  fa-arrow-down fa-2x" style={{ color: 'white'}}>Conheça meu trabalho</a>
                     </p>

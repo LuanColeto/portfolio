@@ -3,7 +3,8 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Include/bootstrap';
 import "animate.css/animate.min.css";
-import "notifyjs"
+import "notifyjs";
+
 
 //Components
 import Cabecalho from "./Components/Navbar/Navbar";
