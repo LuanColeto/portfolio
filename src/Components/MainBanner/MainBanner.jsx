@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './MainBanner.css';
 import Typed from 'react-typed';
 
-// id="apresentation-text"
 
 class MainBanner extends Component{
     render() {
@@ -11,6 +10,7 @@ class MainBanner extends Component{
              <div id="banner-area"  >
                 <div id="banner-text">
                     <Typed
+                        id="apresentation-text"
                         strings={[
                             'Olá!',
                             'Eu sou Luan Coleto',

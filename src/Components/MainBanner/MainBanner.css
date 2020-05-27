@@ -12,6 +12,7 @@
 .about-button {
     border: solid;
     font-size: 20px;
+    margin-top: 80px;
 }
 
 .about-button:hover {
