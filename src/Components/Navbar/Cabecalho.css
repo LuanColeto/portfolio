@@ -1,10 +1,16 @@
 .nav-item {
-    font-size: 20px;
+    font-size: 17px;
     padding-left: 20px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+.nav-item:active {
+    color: #ffffff;
 }
 
 .fixed-top{
-    position: relative;
+    position: fixed;
 }
 
 .sticky {
