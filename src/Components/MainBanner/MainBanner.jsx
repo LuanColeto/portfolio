@@ -8,21 +8,7 @@ class MainBanner extends Component{
              <div id="banner-area"  >
                 <div id="banner-text">
                     <div data-aos="fade-up" data-aos-delay="200" style={{paddingBottom: '10px'}}>Olá, sou <span>Luan Coleto.</span><br/>
-                        Sou um Desenvolvedor FullStack:
-                        <div className="techs-animation">
-                            <ul>
-                                <li>Ruby</li>
-                                <li>Ruby on Rails</li>
-                                <li>JavaScript</li>
-                                <li>React js</li>
-                                <li>Node js</li>
-                                <li>Html</li>
-                                <li>Css</li>
-                                <li>Bootstrap</li>
-                                <li>Sql</li>
-                                <li>Flutter</li>
-                            </ul>
-                        </div>
+                        Sou um Desenvolvedor FullStack
                     </div>
                     <p data-aos="fade-up" data-aos-delay="200" className="arrow bounce"><a href="#section-about"
                          className="btn  py-3 px-5 text-white about-button fa  fa-arrow-down fa-2x" style={{ color: 'white'}}>Conheça meu trabalho</a>
