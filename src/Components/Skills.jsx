@@ -1,10 +1,15 @@
 import React, {Component} from 'react'
-import ruby from './../Images/ruby.png'
-import rails from './../Images/rails.png'
-import html from './../Images/html-5.png'
-import css from './../Images/css.png'
-import javascript from './../Images/javascript.png'
-import react from './../Images/react.png'
+
+//Images
+import ruby from './../Images/ruby.png';
+import rails from './../Images/rails.png';
+import html from './../Images/html-5.png';
+import css from './../Images/css.png';
+import javascript from './../Images/javascript.png';
+import react from './../Images/react.png';
+import flutter from  './../Images/flutter.png';
+import bootstrap from './../Images/bootstrap.png';
+import node from './../Images/node-js.png';
 
 class Skills extends Component{
     render() {
@@ -86,6 +91,41 @@ class Skills extends Component{
                             </div>
 
                         </div>
+
+                        <div className="card-deck mb-3 text-center">
+                            <div className="card mb-4 shadow-sm">
+                                <div className="">
+                                    <img src={flutter} className="skills-images" />
+                                </div>
+                                <div className="card-body">
+                                    <h2 className="card-title pricing-card-title">Flutter</h2>
+                                    <p>Flutter é um framework criado pela Google, utilizado para desenvolvimento mobile</p>
+                                </div>
+                            </div>
+
+                            <div className="card mb-4 shadow-sm">
+                                <div className="">
+                                    <img src={bootstrap} className="skills-images" />
+                                </div>
+                                <div className="card-body">
+                                    <h2 className="card-title pricing-card-title">Bootstrap</h2>
+                                    <p>Bootstrap é um framework de css, utilizado para a criação de layouts responsivos</p>
+                                </div>
+                            </div>
+
+                            <div className="card mb-4 shadow-sm">
+                                <div className="">
+                                    <img src={node} className="skills-images" />
+                                </div>
+                                <div className="card-body">
+                                    <h2 className="card-title pricing-card-title">Node</h2>
+                                    <p>O node js é um interpretador Javascript que permite desenvolver no servidor
+                                        usando a linguagem da web.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
             </div>
