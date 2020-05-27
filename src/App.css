@@ -45,6 +45,8 @@
   margin-bottom: 90px;
 }
 
+
+
 .skills-title {
   font-size: 46px;
   text-align: center;
@@ -56,14 +58,17 @@
 .skills-images {
   width: 100px;
   height: 100px;
-
+  transition: all 0.3s ease;
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
   margin-top: 40px;
 }
 
-.skill-only {
-  padding: 40px ;
-  border-style: solid;
-  border-width: 1px;
-  margin-bottom: 30px;
+.skill-only:hover {
 
 }
+
+.skill-only:hover img {
+  filter: none;
+}
+

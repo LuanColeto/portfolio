@@ -24,7 +24,7 @@ class Skills extends Component{
 
                     <div className="container">
                         <div className="card-deck mb-3 text-center">
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only skill-only">
                                 <div className="">
                                     <img src={ruby} className="skills-images" />
                                 </div>
@@ -35,7 +35,7 @@ class Skills extends Component{
                                 </div>
                             </div>
 
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={rails} className="skills-images" />
                                 </div>
@@ -46,7 +46,7 @@ class Skills extends Component{
                                 </div>
                             </div>
 
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={react} className="skills-images" />
                                 </div>
@@ -58,7 +58,7 @@ class Skills extends Component{
                         </div>
 
                         <div className="card-deck mb-3 text-center">
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={html} className="skills-images" />
                                 </div>
@@ -68,7 +68,7 @@ class Skills extends Component{
                                 </div>
                             </div>
 
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={css} className="skills-images" />
                                 </div>
@@ -79,7 +79,7 @@ class Skills extends Component{
                                 </div>
                             </div>
 
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={javascript} className="skills-images" />
                                 </div>
@@ -93,7 +93,7 @@ class Skills extends Component{
                         </div>
 
                         <div className="card-deck mb-3 text-center">
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={flutter} className="skills-images" />
                                 </div>
@@ -103,7 +103,7 @@ class Skills extends Component{
                                 </div>
                             </div>
 
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={bootstrap} className="skills-images" />
                                 </div>
@@ -113,7 +113,7 @@ class Skills extends Component{
                                 </div>
                             </div>
 
-                            <div className="card mb-4 shadow-sm">
+                            <div className="card mb-4 shadow-sm skill-only">
                                 <div className="">
                                     <img src={node} className="skills-images" />
                                 </div>
