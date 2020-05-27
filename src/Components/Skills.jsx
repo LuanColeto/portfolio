@@ -19,7 +19,7 @@ class Skills extends Component{
 
                     <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
                         <h1 className="display-4">Habilidades</h1>
-                        <p className="lead">Minhas habilidades, ferramentas, linguagens e framewoks</p>
+                        <p className="lead" style={{marginBottom: "70px"}}>Minhas habilidades, ferramentas, linguagens e framewoks</p>
                     </div>
 
                     <div className="container">
