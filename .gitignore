@@ -3,10 +3,9 @@ node_modules library root/
 
 .idea
 
-.DS_Store
-
 build
 =======
-node_modules /
+node_modules
 .idea /
 >>>>>>> Stashed changes
+.DS_Store
