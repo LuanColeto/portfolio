@@ -403,7 +403,100 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="pt-12 pt-md-14 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 col-md-10 col-lg-7 text-center">
 
+              <h1 className="display-2 fw-bold text-white">
+                Meus projetos
+              </h1>
+
+              <p className="lead text-white-75 mb-4">
+                De uma olhada em alguns projetos em que já trabalhei
+              </p>
+
+              <nav className="nav justify-content-center">
+                <button
+                    style={{border: "none"}}
+                    className={filter === 'all' ? 'badge rounded-pill bg-white-soft me-1 mb-1 active' : 'badge rounded-pill bg-white-soft me-1 mb-1'}
+                    onClick={() => setFilter('all')}
+                >
+                  <span className="h6 text-uppercase">Todos</span>
+                </button>
+                <button
+                    style={{border: "none"}}
+                    className={filter === 'backend' ? 'badge rounded-pill bg-white-soft me-1 mb-1 active' : 'badge rounded-pill bg-white-soft me-1 mb-1'}
+                    onClick={() => setFilter('backend')}
+                >
+                  <span className="h6 text-uppercase">Back end</span>
+                </button>
+                <button
+                    style={{border: "none"}}
+                    className={filter === 'frontend' ? 'badge rounded-pill bg-white-soft me-1 mb-1 active' : 'badge rounded-pill bg-white-soft me-1 mb-1'}
+                    onClick={() => setFilter('frontend')}
+                >
+                  <span className="h6 text-uppercase">Front end</span>
+                </button>
+                <button
+                    style={{border: "none"}}
+                    className={filter === 'mobile' ? 'badge rounded-pill bg-white-soft me-1 mb-1 active' : 'badge rounded-pill bg-white-soft me-1 mb-1'}
+                    onClick={() => setFilter('mobile')}
+                >
+                  <span className="h6 text-uppercase">Mobile</span>
+                </button>
+              </nav>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="position-relative">
+        <div className="shape shape-bottom shape-fluid-x svg-shim text-light">
+          <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/>
+          </svg>
+        </div>
+      </div>
+
+      <section className="py-8 py-md-11 mt-n10 mt-md-n14">
+        <div className="container">
+          <div className="row" id="portfolio" data-isotope='{"layoutMode": "masonry"}'>
+
+            {projects.map(project => project.filtered === true ? (
+                <div className="col-12 col-md-4 resources">
+
+                  <a className="card shadow-light-lg mb-7" href="#!">
+
+                    <div className="card-zoom">
+                      <img className="card-img" src={project.image} alt="..." />
+                    </div>
+
+                    <div className="card-img-overlay card-img-overlay-hover">
+                      <div className="card-body bg-white">
+
+                        <div className="shape shape-bottom-100 shape-fluid-x svg-shim text-white">
+                          <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"/>
+                          </svg>
+                        </div>
+
+                        <h6 className="text-uppercase mb-1 text-muted">{project.name}</h6>
+
+                        <h4 className="mb-0">{project.techs.map(tech => <span>{tech}, </span>)}</h4>
+
+                      </div>
+                    </div>
+
+                  </a>
+
+                </div>
+            ) : (''))}
+
+          </div>
+        </div>
+      </section>
     </>
   )
 }
