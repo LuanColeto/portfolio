@@ -41,13 +41,6 @@ export default function Projects() {
             category: ['all', 'backend', 'mobile', 'frontend'],
         },
         {
-            name: 'Have to code',
-            image: 'havetocode.png',
-            link: 'https://havetocode.com/',
-            techs: ['typescript, ', 'next js, ', 'node js'],
-            category: ['all', 'frontend', 'backend'],
-        },
-        {
             name: 'GoFinances',
             image: 'gofinances-server.png',
             link: 'https://github.com/LuanColeto/GoFinances-server',
