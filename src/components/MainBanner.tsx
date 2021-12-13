@@ -19,7 +19,7 @@ export default function MainBanner() {
 
 
                             <p className="lead text-center text-md-start text-muted mb-6 mb-lg-8">
-                                Sou um desenvolvedor Full Stack. Apaixonado por tecnologia, e especialista no desenvolvimento de APIS.
+                                Sou um desenvolvedor Full Stack, apaixonado por tecnologia.
                             </p>
 
                             <div className="text-center text-md-start">
